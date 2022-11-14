@@ -1,0 +1,424 @@
+/* for mobile devices */
+/* @media screen and (max-width:480px) {
+    body{
+        background-color:plum;
+    }
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+    .icons{
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .cart1{
+        border: 1px solid white;
+    }
+    .produtinfo{
+        width: 70px;
+        display: block;
+        background-color: aquamarine;
+    }
+} */
+
+/* for low tablets,ipads */
+/* @media (min-width:481px) and (max-width:767px){
+    body{
+        background-color: aqua;
+    }
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+} */
+
+
+/* for tablets ipad portrait mode */
+/* @media(min-width:768px)and (max-width:1024px){
+    body{background-color: red;}
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+} */
+
+/* for laptops and desktop */
+/* @media(min-width:1025px)and (max-width:1280px){
+    body{background-color:teal;}
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+} */
+
+/* for large screen */
+/* @media(min-width:1281px)and (max-width:1420px){
+    body{background-color:blue;}*/
+@media (max-width:320px){
+    body{background-color:teal ;}
+    .text-center .max-auto,
+    .h6, .cr2{
+        display: none;
+    }
+}
+/* for mobile devices */
+@media (min-width:200px)  and (max-width:480px){
+    body{background-color:hotpink ;}
+    .text-center .max-auto,
+    .h6, .cr2{
+        display: none;
+    }
+    .display-6{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .fle {
+        width: 50%;
+    } 
+    .icons{
+        opacity: 1;
+        left: 50px;
+    } 
+    .cart1{
+        width: 25%;
+        height: 4vh;
+    }
+    
+    .produtinfo{
+        /* background-color:blue; */
+        width: 100%;
+        display: flex;
+        margin-top: -20%;
+       
+    }
+    
+    .wishdelenq{
+        /* background-color: red; */
+        width: 100%;
+        display: block;
+
+    }
+    .info{
+        margin-top: 2px;
+        /* font-size: 14px; */
+        width: 25%;
+    }
+    .addtocart{
+        width: 100%;
+    }
+    #minus , #plus{
+        height:20px;
+        width:20px;
+        background-color: bisque;
+    }
+    #mainDiv {
+        width:90%;
+        background-color: aqua;
+    }
+.btn{
+    width: 50%;
+}
+.mage{
+    margin-top: -10px;
+}
+.viewa{
+    display: block;
+}
+.proview,.tabs,.ship,.rev,.fis{
+    height: 7vh;
+}
+.table{
+    width: 50%;
+    text-align: center;
+    border: 1px solid #777;
+    margin-left: 10%;
+}
+.sizee{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.proview{
+    list-style: none;
+    width: 100%;
+    outline: none;
+    background-color: #dddddd;
+    /* border-top: 1px solid #dddddd; */
+    /* border-left: 1px solid #dddddd; */
+    /* border-right: 1px solid #dddddd; */
+    /* padding-top: 10px; */
+
+}
+.tabs{
+    list-style: none;
+    width: 100%;
+    outline: none;
+    background-color: #dddddd;
+    /* border-top: 1px solid #dddddd; */
+    /* border-left: 1px solid #dddddd; */
+    /* border-right: 1px solid #dddddd; */
+    /* padding-top: 10px; */
+}
+.rev{
+    list-style: none;
+    width: 100%;
+    outline: none;
+    background-color: #dddddd;
+    /* border-top: 1px solid #dddddd; */
+    /* border-left: 1px solid #dddddd; */
+    /* border-right: 1px solid #dddddd; */
+    /* padding-top: 10px; */
+}
+.fis{
+    list-style: none;
+    width: 100%;
+    outline: none;
+    background-color: #dddddd;
+    /* border-top: 1px solid #dddddd; */
+    /* border-left: 1px solid #dddddd; */
+    /* border-right: 1px solid #dddddd; */
+    /* padding-top: -10px; */
+
+}
+.ship{
+    list-style: none;
+    width: 100%;
+    outline: none;
+    background-color: #dddddd;
+    /* border-top: 1px solid #dddddd; */
+    /* border-left: 1px solid #dddddd; */
+    /* border-right: 1px solid #dddddd; */
+    /* padding-top: 10px; */
+
+}
+}
+
+/* for low tablets,ipads */
+@media (min-width:481px) and (max-width:767px){ 
+    body{
+        /* background-color: aqua; */
+    }
+    .sub{
+        width: 73%;
+    }
+    .text-center .max-auto,
+    .h6, .cr2{
+        display: none;
+    }
+    .display-6{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .fle {
+        width: 50%;
+    }  
+    .icons{
+        opacity: 1;
+        left: 50px;
+    }
+    
+    .produtinfo{
+        background-color: RED;
+        width: 100%;
+        /* align-items: center; */
+    }
+    .info{
+        /* padding-right: 24px; */
+        font-size: 10px;
+        /* align-items: center; */
+    }
+    .addtocart{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .viewa{
+        display: block;
+        background-color: #777;
+    }
+    .proview,.tabs,.ship,.rev{
+        height: 6vh;
+    }
+    .table{
+        width: 50%;
+        text-align: center;
+        border: 1px solid #777;
+        margin-left: 10%;
+    }
+    .sizee{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .proview{
+        list-style: none;
+        width: 100%;
+        outline: none;
+        background-color: #dddddd;
+        /* border-top: 1px solid #dddddd; */
+        /* border-left: 1px solid #dddddd; */
+        /* border-right: 1px solid #dddddd; */
+        /* padding-top: 10px; */
+    
+    }
+    .tabs{
+        list-style: none;
+        width: 100%;
+        outline: none;
+        background-color: #dddddd;
+        /* border-top: 1px solid #dddddd; */
+        /* border-left: 1px solid #dddddd; */
+        /* border-right: 1px solid #dddddd; */
+        /* padding-top: 10px; */
+    }
+    .rev{
+        list-style: none;
+        width: 100%;
+        outline: none;
+        background-color: #dddddd;
+        /* border-top: 1px solid #dddddd; */
+        /* border-left: 1px solid #dddddd; */
+        /* border-right: 1px solid #dddddd; */
+        /* padding-top: 10px; */
+    }
+    .fis{
+        list-style: none;
+        width: 100%;
+        outline: none;
+        background-color: #dddddd;
+        /* border-top: 1px solid #dddddd; */
+        /* border-left: 1px solid #dddddd; */
+        /* border-right: 1px solid #dddddd; */
+        /* padding-top: -10px; */
+    
+    }
+    .ship{
+        list-style: none;
+        width: 100%;
+        outline: none;
+        background-color: #dddddd;
+        /* border-top: 1px solid #dddddd; */
+        /* border-left: 1px solid #dddddd; */
+        /* border-right: 1px solid #dddddd; */
+        /* padding-top: 10px; */
+    
+    }
+}
+    
+
+
+/* for tablets ipad portrait mode */
+ @media(min-width:768px)and (max-width:1024px){
+    body{background-color: red;}
+    .cr2{
+        display: none;
+    }
+    .btn-secondary{
+        margin-left: 20%;
+        border:1px solid #000;
+        background-color: #000;
+        color: #dddddd;
+        width: 30%;
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:300px) {
+    .col{
+        width: 60   %;
+    }
+} */
+

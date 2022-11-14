@@ -1,0 +1,142 @@
+/* for mobile devices */
+@media screen and (max-width:480px) {
+    body{
+        background-color:plum;
+    }
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+    .icons{
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .cart1{
+        border: 1px solid white;
+    }
+    .produtinfo{
+        width: 70px;
+        display: block;
+        background-color: aquamarine;
+    }
+}
+
+/* for low tablets,ipads */
+@media (min-width:481px) and (max-width:767px){
+    body{
+        background-color: aqua;
+    }
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+}
+
+
+/* for tablets ipad portrait mode */
+@media(min-width:768px)and (max-width:1024px){
+    body{background-color: red;}
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+}
+
+/* for laptops and desktop */
+@media(min-width:1025px)and (max-width:1280px){
+    body{background-color:teal;}
+    h2,p,h4{
+        font-size: 40px;
+    }
+    .mb-3{
+        font-size: 25px;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    select{
+        font-size: 20px;
+    }
+    .display-6{
+        font-size: 40px;
+    }
+    .h6,h5{
+        font-size: 25px;
+    }
+    .carousel-inner{
+        display: flex;
+    }
+    .p-name,.price,.fa ,.h4 {
+        font-size: 30px;
+    }
+}
+
+/* for large screen */
+/* @media(min-width:1281px)and (max-width:1420px){
+    body{background-color:blue;}
+} */
+
+
+
+
